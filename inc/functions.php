@@ -4,7 +4,7 @@
   *
   * copied from Pinyin Permalinks
   *
-  * since version 0.0.1
+  * since version 0.1
   */
 
 function getPinyinSlug( $strTitle ) {

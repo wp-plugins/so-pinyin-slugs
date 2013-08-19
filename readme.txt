@@ -3,11 +3,11 @@ Contributor: senlin
 Tags: pinyin, permalinks, slugs, Mandarin, Chinese
 Requires at least: 3.5.2
 Tested up to: 3.6
-Stable tag: 0.0.1
+Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Transforms Chinese character titles (of Posts, Pages and all other content types that use slugs) into a permalink friendly slug, showing pinyin that can be read by humans and (Chinese) search engines alike.
+Transforms Chinese character titles into a permalink friendly slug, showing pinyin that can be read by humans and (Chinese) search engines alike.
 
 == Description ==
 

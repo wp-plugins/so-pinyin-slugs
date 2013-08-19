@@ -3,7 +3,7 @@
  * A function for displaying messages in the admin.  It will wrap the message in the appropriate <div> with the 
  * custom class entered.  The updated class will be added if no $class is given.
  *
- * @since 0.0.1
+ * @since 0.1
  * @param $class string Class the <div> should have.
  * @param $message string The text that should be displayed.
  */
