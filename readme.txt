@@ -73,5 +73,5 @@ Please open an issue over at [Github](https://github.com/senlin/so-pinyin-slugs/
 
 == Changelog ==
 
-= 0.0.1 =
+= 0.1 =
 * First stable release
