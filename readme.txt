@@ -62,7 +62,7 @@ Done!
 
 = Can I use this plugin also for Traditional Chinese? =
 
-No, the dictionary part of the plugin only contains Simplified Chinese. If you want, you can check what words the dictionary contains by going into `inc/functions.php`
+No, the dictionary part of the plugin only contains Simplified Chinese. If you want, you can check what words the dictionary contains by going into `inc/dictionary.php`
 
 = I have an issue with this plugin, where can I get support? =
 
