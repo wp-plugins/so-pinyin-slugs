@@ -1,19 +1,17 @@
 === SO Pinyin Slugs ===
 Contributor: senlin
 Tags: pinyin, permalinks, slugs, Mandarin, Chinese
-Requires at least: 3.5.2
-Tested up to: 3.6
-Stable tag: 0.1.1
+Requires at least: 3.6
+Tested up to: 3.7
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Transforms Chinese character titles into a permalink friendly slug, showing pinyin that can be read by humans and (Chinese) search engines alike.
+Transforms Chinese character titles (of Posts, Pages and all other content types that use slugs) into a permalink friendly slug, showing pinyin that can be read by humans and (Chinese) search engines alike.
 
 == Description ==
 
-The SO Pinyin Slugs plugin transforms Chinese character titles (of Posts, Pages and all other content types that use slugs) into a permalink friendly slug, showing pinyin that can be read by humans and (Chinese) search engines alike.
-
-It is a fork of the original [Pinyin Permalinks](http://wordpress.org/plugins/pinyin-permalink/) plugin by user [xiaole_tao](http://profiles.wordpress.org/xiaole_tao/) who has seemingly abandoned his plugin as he never responded to emails.
+The SO Pinyin Slugs plugin is a fork of the original [Pinyin Permalinks](http://wordpress.org/plugins/pinyin-permalink/) plugin by user [xiaole_tao](http://profiles.wordpress.org/xiaole_tao/) who has seemingly abandoned his plugin as he never responded to emails.
 
 The original plugin can basically only be used on Chinese only websites; as soon as you install it on a bi/multilingual site it messes up the slugs of the non-Chinese languages.
 
@@ -25,7 +23,7 @@ Search engines such as [Baidu](http://www.baidu.com) obviously cannot make much 
 
 So instead of transforming "中国" into two separate words divided by a hyphen or an underscore (the original plugin has this as options), it is best transformed into "zhongguo". The only option SO Pinyin Slugs therefore has left is the length that you can limit to an x amount of letters. The default is 100, which should be plenty for most.
 
-I have decided to only support this plugin through [Github](https://github.com/senlin/so-pinyin-slugs/issues). Therefore, if you have any questions, need help and/or want to make a feature request, please open an issue over at Github. You can also browse through open and closed issues to find what you are looking for and perhaps even help others.
+I have decided to only support this plugin through [Github](https://github.com/so-wp/so-pinyin-slugs/issues). Therefore, if you have any questions, need help and/or want to make a feature request, please open an issue over at Github. You can also browse through open and closed issues to find what you are looking for and perhaps even help others.
 
 **PLEASE DO NOT POST YOUR ISSUES VIA THE WORDPRESS FORUMS**
 
@@ -62,18 +60,33 @@ Done!
 
 = Can I use this plugin also for Traditional Chinese? =
 
-No, the dictionary part of the plugin only contains Simplified Chinese. If you want, you can check what words the dictionary contains by going into `inc/dictionary.php`
+No, the dictionary part of the plugin only contains Simplified Chinese. If you want, you can check what words the dictionary contains by going into `inc/functions.php`
 
 = I have an issue with this plugin, where can I get support? =
 
-Please open an issue over at [Github](https://github.com/senlin/so-pinyin-slugs/issues/new), as **I will not use the support forums** here on WordPress.org
+Please open an issue over at [Github](https://github.com/so-wp/so-pinyin-slugs/issues), as **I will not use the support forums** here on WordPress.org
+
+== Other Notes ==
+
+= WPML Compatible =
+
+The SO Pinyin Slugs plugin has received the [WPML Certification of Compatibility](http://wpml.org/plugin/so-pinyin-slugs/).
 
 == Screenshots ==
 
 1. Settings page
 2. New Post with title in Chinese characters and auto-generated pinyin slug; Baidu Search Results page underneath
+3. WPML Compatible
 
 == Changelog ==
+
+= 0.1.2 =
+
+* compatible up to WordPress 3.7 
+* redo version check, min. requirement WordPress 3.6
+* change Github link
+* add Dutch language files
+* add WPML accreditation
 
 = 0.1.1 =
 
