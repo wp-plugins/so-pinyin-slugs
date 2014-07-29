@@ -2,7 +2,7 @@
 Contributors: senlin
 Tags: pinyin, permalinks, slugs, Mandarin, Chinese
 Requires at least: 3.6
-Tested up to: WP 3.9
+Tested up to: WP 3.9-alpha
 Stable tag: 2013.12.28
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -34,6 +34,10 @@ Thanks for your understanding and cooperation.
 
 = Wordpress =
 
+Quick installation: [Install now](http://coveredwebservices.com/wp-plugin-install/?plugin=so-pinyin-slugs) !
+
+ &hellip; OR &hellip;
+
 Search for "SO Pinyin Slugs" and install with the **Plugins > Add New** back-end page.
 
  &hellip; OR &hellip;
@@ -42,7 +46,7 @@ Follow these steps:
 
 1. Download zip file.
 2. Upload the zip file via the Plugins > Add New > Upload page &hellip; OR &hellip; unpack and upload with your favorite FTP client to the /plugins/ folder.
-3. Activate the plugin on the Plugins page.
+3. Activate the plugin on the Plug-ins page.
 
 Done!
 
