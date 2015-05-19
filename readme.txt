@@ -2,7 +2,7 @@
 Contributors: senlin
 Tags: pinyin, permalinks, slugs, Mandarin, Chinese
 Requires at least: 4.0
-Tested up to: WP 4.1
+Tested up to: WP 4.2
 Stable tag: 2015.04.09
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -55,7 +55,6 @@ Done!
 
 = Known Issues: =
 
-* not compatible with WP 4.2.x and up - we are working on a solution
 * SO Pinyin Slugs will not transform existing slugs
 * If the title contains both Chinese characters and alphanumeric characters (abc, 123, etc.) SO Pinyin Slugs will ignore the latter. So if these alphanumeric characters are important, you will need to add them manually to your slug.
 
